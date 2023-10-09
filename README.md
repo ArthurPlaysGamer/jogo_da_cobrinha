@@ -13,6 +13,6 @@ Um popular jogo da cobrinha, escrito em javascript. Funciona tanto em PC quanto 
 - Armazena o melhor registro no localStorage.
 - Conjunto de músicas do Google Snake e Minecraft.
 
-[Play](https://arthurplaysgamer.github.io/jogo_da_cobrinha/)
+[Jogar](https://arthurplaysgamer.github.io/jogo_da_cobrinha/)
 
 [Autor: Arthur Rabelo](https://github.com/ArthurPlaysGamer)
