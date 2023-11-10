@@ -31,7 +31,8 @@ for (let i = 0; i < images.length; i++) {
   img.src = images[i];
 }
 
-canvas.style = 'background-image: url(./img/background.jpg);';
+canvas.style = 'background-image: url(./img/bg.svg);';
+
 
 if (window.innerWidth > 650) {
   canvas.width = 600;
