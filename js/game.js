@@ -4,7 +4,7 @@ let scoreBlock = document.getElementById('score');
 let scoreCount = 0;
 let bestScoreBlock = document.getElementById('best-score');
 let dir = '';
-let diff = 'Easy';
+let diff = 'Fácil';
 let diffBlock = document.getElementById('difficulty');
 let btnChange = document.getElementById('changeDif');
 
