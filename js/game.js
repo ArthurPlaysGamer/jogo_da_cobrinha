@@ -31,8 +31,10 @@ for (let i = 0; i < images.length; i++) {
   img.src = images[i];
 }
 
-canvas.style = 'background-image: url(./img/bg.svg);';
-
+img.onload = function () {
+  canvas.style.backgroundImage = 'url(./img/bg.svg)';
+  gameLoop(); // Inicia o loop do jogo após o carregamento da imagem
+};
 
 if (window.innerWidth > 650) {
   canvas.width = 600;
@@ -214,6 +216,7 @@ function gameLoop() {
   drawSnake();
   drawFood();
   randomPosBomb();
+  // Restante da lógica do jogo...
 }
 
 function drawSnake() {
@@ -234,5 +237,5 @@ function audioPlay(name) {
 
 function gameLoop() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
-  // O restante da lógica do jogo aqui...
+  // Restante da lógica do jogo...
 }
